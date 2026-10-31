@@ -1,0 +1,22 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+float mark1,mark2,mark3,total,percentage,avg;
+    cout<<"the  mark1 are:"<<endl;
+    cin>>mark1;
+    cout<<"the mark2 are:"<<endl;
+    cin>>mark2;
+    cout<<"the mark3 are:"<<endl;
+    cin>>mark3;
+    total=mark1+mark2+mark3;
+    cout<<"the total marks are"<<total<<endl;
+    percentage=total/300*100.0;
+    cout<<"the percentage is"<<percentage<<endl;
+    avg=total/3.0;
+    cout<<"the average is:"<<avg<<endl;
+    return 0;
+}
